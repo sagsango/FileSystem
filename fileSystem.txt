@@ -1,0 +1,33 @@
+File 
+	File Attributes/Metadata + Representation
+		inode
+		blocks
+		sequectial access of blocks
+		holes
+		block size
+		modification time
+		access time
+		change time
+		no of hard linkes [ //TODO: softlink vs hardlink
+		permission [rwx]
+			user
+			group
+			public
+		group id
+		user id
+
+
+	Extended attributes
+		basics of xattr
+			key, value pair
+			limitaion on name size, value size, and no of xattr
+		Access-control-list ACL
+			chmod, getfacl, setfacl
+			for evey user/group we can set permission[rwx]
+			limitation on no of acl entries,
+		File Capabilities
+			total 38 capabilities, root have all
+			capabilities can be partially provided to non-root proces/executables
+
+
+
